@@ -30,6 +30,7 @@ function ToyForm({ onAddToy }) {
     })
       .then((r) => r.json())
       .then((newToy) => {
+        console.log(newToy)
         setFormData({
           name: "",
           image: "",
